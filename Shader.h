@@ -74,7 +74,7 @@ class Shader{
             }
 
             const GLchar* vShaderCode = vertexCode.c_str();
-            const GLchar * fShaderCode = fragmentCode.c_str();
+            const GLchar* fShaderCode = fragmentCode.c_str();
 
             //2.編譯著色器
             GLuint vertex, fragment;
