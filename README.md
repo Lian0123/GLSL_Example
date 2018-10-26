@@ -2,7 +2,7 @@
 用中文說明的GLSL程式範例，原本想順便寫個說明PPT，但還是算了...
 
 ## 投影片：
-線上版：https://www.slideshare.net/ssuser6090c0/glsl-120752337
+線上版：https://www.slideshare.net/ssuser6090c0/glsl-120781572
 
 PDF版：https://drive.google.com/open?id=1WEM7-G4eEtXtXwNTSqamD2NCF2iFfjov
 
