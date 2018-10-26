@@ -11,7 +11,7 @@
 
 #version 330 core
 layout (location = 0) in vec3 position; //位置變量的屬性位置值為 0
-layout (location = 1) in vec3 color;    //颜色变量的属性位置值为 1
+layout (location = 1) in vec3 color;    //顏色變量的属性位置值為 1
 
 out vec3 ourColor; //向Fragment Shader輸出一個顏色
 
