@@ -79,11 +79,11 @@ int main()
     glBindBuffer(GL_ARRAY_BUFFER, VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    //位置屬性
+    //位置屬性（對應Location=0 、取得3個、屬性、旗標、大小、偏移量0）
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (GLvoid*)0);
     glEnableVertexAttribArray(0);
     
-    //顏色屬性
+    //顏色屬性（對應Location=1 、取得3個、屬性、旗標、大小、偏移量3）
     glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), (GLvoid*)(3 * sizeof(GLfloat)));
     glEnableVertexAttribArray(1);
 
@@ -102,8 +102,9 @@ int main()
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
-        // Draw the triangle（以三角行為基底，POP出vertices陣列的資訊）
+        //使用Shader ourShader
         ourShader.Use();
+      
         glBindVertexArray(VAO);
         glDrawArrays(GL_TRIANGLES, 0, 6); //原始為 glDrawArrays(GL_TRIANGLES, 0, 3); 要n>=1且3*n點才能形成三角形，否則總點數m%3的餘數不會被繪製
         glBindVertexArray(0);
