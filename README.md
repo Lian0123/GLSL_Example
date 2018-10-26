@@ -1,6 +1,10 @@
 # GLSL_Example
 用中文說明的GLSL程式範例，原本想順便寫個說明PPT，但還是算了...
 
+## 投影片：
+線上版：https://www.slideshare.net/ssuser6090c0/glsl-120752337
+PDF版：https://drive.google.com/open?id=1WEM7-G4eEtXtXwNTSqamD2NCF2iFfjov
+
 ## 使用授權：
 沿用 https://learnopengl.com/ 上對代碼使用CC BY-NC 4.0的授權
 
@@ -15,7 +19,6 @@ frag_shader.glsl：https://learnopengl.com/code_viewer.php?type=fragment&code=ge
 
 
 ## 來源資料：
-
 來源0(建議閱讀)：http://www.opengl-tutorial.org/cn/beginners-tutorials/tutorial-2-the-first-triangle/
 
 來源1：https://learnopengl-cn.readthedocs.io/
