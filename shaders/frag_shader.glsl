@@ -10,7 +10,7 @@
  */
 
 #version 330 core
-in vec3 ourColor;  //接收Fragment Shader的輸出一個顏色
+in vec3 ourColor;  //接收Vertex Shader向Fragment Shader的輸出一個顏色
 
 out vec4 color; //Vertex Shader輸出的變量名可以任意命名，類型必須是vec4
 
